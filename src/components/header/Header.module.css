@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  background-color: var(--bg_light);
+  justify-content: space-between;
+  padding: 2% 5%;
+}
+.logo {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.routes_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.routes {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.route_link {
+  cursor: pointer;
+}
