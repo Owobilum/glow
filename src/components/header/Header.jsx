@@ -6,7 +6,9 @@ import image from '../../images/img.PNG';
 const Header = () => {
   return (
     <header className={styles.root}>
-      <div className={styles.logo}>Glow</div>
+      <div className={styles.logo}>
+        Glow<span className={styles.dot}>.</span>
+      </div>
       <div className={styles.routes_container}>
         <div className={styles.routes}>
           {' '}

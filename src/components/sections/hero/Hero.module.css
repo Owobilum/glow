@@ -2,7 +2,9 @@
   display: flex;
   background-color: var(--clr_bg_light);
   padding: 2% 5%;
+  padding-bottom: 0;
   justify-content: space-between;
+  color: var(--clr_secondary);
 }
 .heading {
   font-size: 4rem;

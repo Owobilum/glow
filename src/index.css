@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
 
 :root {
-  --clr_bg_light: #faf8f6;
-  --clr_white: #ffffff;
   --clr_primary: #f5683c;
+  --clr_secondary: #19183a;
+  --clr_bg_light: #faf8f6;
+  --clr_bg_dark: #f1e4ef;
+  --clr_white: #ffffff;
+  --clr_gray: #878583;
+  --clr_lavender: #c0b5dd;
 }
 
 body {

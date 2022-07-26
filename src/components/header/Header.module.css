@@ -7,6 +7,13 @@
 .logo {
   font-size: 2rem;
   cursor: pointer;
+  font-weight: 500;
+  color: var(--clr_secondary);
+}
+.dot {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--clr_primary);
 }
 .routes_container {
   display: flex;
@@ -20,4 +27,6 @@
 }
 .route_link {
   cursor: pointer;
+  color: var(--clr_gray);
+  font-weight: 500;
 }
