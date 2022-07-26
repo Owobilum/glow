@@ -1,6 +1,6 @@
 .root {
   display: flex;
-  background-color: var(--bg_light);
+  background-color: var(--clr_bg_light);
   justify-content: space-between;
   padding: 2% 5%;
 }
