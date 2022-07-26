@@ -14,6 +14,40 @@
   height: 100%;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+.actions {
+  /* width: 50px;
+  height: 50px; */
+  background-color: transparent;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.buy_btn {
+  border: none;
+  cursor: pointer;
+  background-color: var(--clr_primary);
+  color: var(--clr_white);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+}
+.like_btn {
+  border: 1px solid var(--clr_primary);
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--clr_primary);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
 }
 .img {
   display: block;
