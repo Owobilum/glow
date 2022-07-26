@@ -24,7 +24,6 @@ const card = () => (
       Made with nature's best ingredients - our products' transparent
       ingredient. Fear of God Essentials.
     </p>
-
     <button className={styles.btn}>
       <span className={styles.btn_text}>Browse All Products</span>{' '}
       <img src={arrowIcon} alt="forward_icon" className={styles.btn_icon} />

@@ -1,7 +1,6 @@
 .container {
   background-color: var(--clr_bg_light);
-  padding: 2% 5%;
-  padding-top: 8rem;
+  padding: 8rem 5%;
   position: relative;
   top: -2rem;
   color: var(--clr_secondary);
