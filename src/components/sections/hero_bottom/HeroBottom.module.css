@@ -94,3 +94,12 @@
 .question_body {
   font-size: 1rem;
 }
+
+@media (max-width: 1300px) {
+  .column_box {
+    max-width: 400px;
+  }
+  .heading1 {
+    font-size: 1.75rem;
+  }
+}
