@@ -1,4 +1,5 @@
 import Header from '../../components/header/Header';
+import Faq from '../../components/sections/faq/Faq';
 import Hero from '../../components/sections/hero/Hero';
 import HeroBottom from '../../components/sections/hero_bottom/HeroBottom';
 import NaturalBeauty from '../../components/sections/natural_beauty/NaturalBeauty';
@@ -12,6 +13,7 @@ const Home = () => {
       <HeroBottom />
       <Trending />
       <NaturalBeauty />
+      <Faq />
     </main>
   );
 };

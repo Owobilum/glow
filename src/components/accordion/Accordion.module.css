@@ -1,0 +1,34 @@
+.container {
+  max-width: 450px;
+  color: var(--clr_secondary);
+}
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.highlight {
+  color: var(--clr_primary);
+}
+
+/* ITEM */
+.item_box {
+  border-top: 2px solid var(--clr_gray);
+  border-bottom: 2px solid var(--clr_gray);
+  padding: 1rem 0;
+  max-width: 400px;
+}
+.item_head {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0.5rem;
+}
+.item_question {
+  font-weight: 600;
+}
+.item_content {
+  padding-top: 1rem;
+}
+.item_btn {
+  cursor: pointer;
+  font-size: 1.5rem;
+}

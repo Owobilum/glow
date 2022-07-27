@@ -1,0 +1,22 @@
+.root {
+  background-color: var(--clr_bg_light);
+  padding: 2% 5%;
+  position: relative;
+  top: -2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.left_column {
+  width: 350px;
+  height: 400px;
+  overflow: hidden;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  background-color: var(--clr_lavender);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.left_box {
+  position: relative;
+}

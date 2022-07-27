@@ -1,6 +1,7 @@
 .container {
   display: flex;
   padding-right: 5%;
+  padding-bottom: 6rem;
   background-color: var(--clr_bg_light);
   position: relative;
   top: -2rem;
@@ -22,7 +23,6 @@
   right: -200px;
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-end; */
   justify-content: center;
 }
 .left_box {
