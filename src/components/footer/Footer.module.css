@@ -1,7 +1,7 @@
 .root {
   background-color: var(--clr_secondary);
   padding: 2rem 5%;
-  height: 450px;
+  height: 500px;
   color: var(--clr_white);
   display: flex;
   align-items: center;

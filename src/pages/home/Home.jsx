@@ -1,4 +1,5 @@
 import Footer from '../../components/footer/Footer';
+import FooterTop from '../../components/footer_top/FooterTop';
 import Header from '../../components/header/Header';
 import Faq from '../../components/sections/faq/Faq';
 import Hero from '../../components/sections/hero/Hero';
@@ -19,6 +20,7 @@ const Home = () => {
       <Faq />
       <Testimonials />
       <Partners />
+      <FooterTop />
       <Footer />
     </main>
   );

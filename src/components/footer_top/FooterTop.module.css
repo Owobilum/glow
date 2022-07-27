@@ -1,0 +1,31 @@
+.root {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  bottom: -80px;
+  background: transparent;
+}
+.item {
+  max-width: 200px;
+}
+.item2 {
+  max-width: 200px;
+  background-color: var(--clr_bg_orange);
+  color: var(--clr_white);
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+  padding: 0.25rem;
+}
+.mini_text {
+  font-size: 0.75rem;
+}
+.content {
+  height: 100%;
+}
+.btn {
+  border: none;
+  background-color: var(--clr_bg_orange);
+  cursor: pointer;
+}
