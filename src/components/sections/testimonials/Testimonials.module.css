@@ -1,0 +1,29 @@
+.root {
+  padding: 2% 5%;
+  padding-bottom: 8rem;
+  color: var(--clr_secondary);
+  background-color: var(--clr_bg_light);
+  position: relative;
+  top: -2rem;
+  display: grid;
+  place-items: center;
+}
+.controls {
+  display: flex;
+  gap: 0.75rem;
+  position: absolute;
+  bottom: 11rem;
+}
+.control {
+  height: 0.75rem;
+  width: 0.75rem;
+  border: 1px solid var(--clr_primary);
+  cursor: pointer;
+}
+.active_control {
+  height: 0.75rem;
+  width: 0.75rem;
+  border: 1px solid var(--clr_primary);
+  background-color: var(--clr_primary);
+  cursor: pointer;
+}

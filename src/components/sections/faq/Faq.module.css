@@ -1,6 +1,7 @@
 .root {
   background-color: var(--clr_bg_light);
   padding: 2% 5%;
+  padding-bottom: 6rem;
   position: relative;
   top: -2rem;
   display: flex;

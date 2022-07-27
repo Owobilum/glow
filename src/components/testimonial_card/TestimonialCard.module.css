@@ -1,0 +1,49 @@
+.container {
+  background-color: var(--clr_white);
+  position: relative;
+  max-width: 900px;
+  height: 350px;
+  padding: 2rem;
+  padding-right: 4rem;
+  padding-bottom: 1rem;
+}
+.img_parent {
+  display: grid;
+  place-items: center;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: var(--clr_bg_light);
+  position: absolute;
+  top: 2rem;
+  right: -125px;
+}
+.img_box {
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+  background-color: var(--clr_primary);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.img {
+  display: block;
+}
+.quote_mark {
+  font-size: 5rem;
+  color: var(--clr_primary);
+}
+.quote {
+  font-size: 1.5rem;
+  max-width: 550px;
+}
+.name {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.location {
+  font-size: 1rem;
+  color: var(--clr_gray);
+}
