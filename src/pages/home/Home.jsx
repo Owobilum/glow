@@ -1,3 +1,4 @@
+import Footer from '../../components/footer/Footer';
 import Header from '../../components/header/Header';
 import Faq from '../../components/sections/faq/Faq';
 import Hero from '../../components/sections/hero/Hero';
@@ -18,6 +19,7 @@ const Home = () => {
       <Faq />
       <Testimonials />
       <Partners />
+      <Footer />
     </main>
   );
 };

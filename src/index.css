@@ -8,6 +8,7 @@
   --clr_white: #ffffff;
   --clr_gray: #878583;
   --clr_lavender: #c0b5dd;
+  --clr_light_blue: #262653;
   --clr_light_pink: #ffe5de;
   --clr_dark_pink: #f6866a;
 }
@@ -18,6 +19,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--clr_bg_light);
 }
 
 img {
