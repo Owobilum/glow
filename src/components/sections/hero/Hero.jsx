@@ -1,3 +1,7 @@
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import styles from './Hero.module.css';
 import arrowIcon from '../../../images/forward.png';
 import playIcon from '../../../images/play.png';
@@ -5,8 +9,16 @@ import modelIcon from '../../../images/model_mini.PNG';
 import modelImg from '../../../images/model.png';
 
 const Hero = () => {
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
   return (
-    <section className={styles.root}>
+    <section
+      className={styles.root}
+      data-aos="slide-up"
+      data-aos-delay="0"
+      data-aos-easing="ease-in-out"
+    >
       <div>
         <p className={styles.heading}>Let your skin</p>
         <div className={styles.heading}>

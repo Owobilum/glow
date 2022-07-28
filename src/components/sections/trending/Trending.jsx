@@ -1,3 +1,7 @@
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import styles from './Trending.module.css';
 import ProductCard from '../../product_card/ProductCard';
 import arrowIcon from '../../../images/forward.png';
@@ -6,6 +10,7 @@ import product2 from '../../../images/product2.PNG';
 import product3 from '../../../images/product3.PNG';
 import product4 from '../../../images/product4.PNG';
 import product5 from '../../../images/product5.PNG';
+import { OFFSET } from '../../../utils/constants';
 
 const products = [
   { name: 'Shower Butter', img: product1 },
@@ -32,9 +37,18 @@ const card = () => (
 );
 
 const Trending = () => {
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
   return (
     <div className={styles.container}>
-      <div className={styles.products_box}>
+      <div
+        className={styles.products_box}
+        data-aos="fade-up-left"
+        data-aos-delay={0}
+        data-aos-easing="ease-in-out"
+        data-aos-offset={OFFSET}
+      >
         <div className={styles.product}>{card()}</div>
         {products?.map((product, index) => (
           <div key={index} className={styles.product}>

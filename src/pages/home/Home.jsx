@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 
+import styles from './Home.module.css';
 import Footer from '../../components/footer/Footer';
 import FooterTop from '../../components/footer_top/FooterTop';
 import Header from '../../components/header/Header';
@@ -16,12 +17,12 @@ const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const intervalId = setTimeout(() => setIsLoading(false), 2400);
-    return () => clearInterval(intervalId);
+    const timeoutId = setTimeout(() => setIsLoading(false), 2400);
+    return () => clearTimeout(timeoutId);
   }, []);
 
   return (
-    <main>
+    <main className={styles.root}>
       {isLoading && (
         <div>
           <SplashScreen />
