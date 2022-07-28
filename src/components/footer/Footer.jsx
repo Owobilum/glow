@@ -1,16 +1,30 @@
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import styles from './Footer.module.css';
 import facebook from '../../images/facebook.PNG';
 import twitter from '../../images/twitter.PNG';
 import instagram from '../../images/instagram.PNG';
 import linkedin from '../../images/linkedin.PNG';
 import send from '../../images/send.PNG';
+import { DELAY, OFFSET_LARGE } from '../../utils/constants';
 
 const socials = [facebook, instagram, twitter, linkedin];
 
 const Footer = () => {
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
   return (
     <footer>
-      <div className={styles.root}>
+      <div
+        className={styles.root}
+        data-aos="slide-up"
+        data-aos-delay={DELAY}
+        data-aos-easing="ease-in-out"
+        data-aos-offset={OFFSET_LARGE}
+      >
         <div className={styles.flex_container}>
           <div className={styles.column1}>
             <div className={styles.logo}>

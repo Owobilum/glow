@@ -45,6 +45,7 @@
     2% 35%,
     39% 35%
   );
+  animation: spin 2s linear infinite;
 }
 .left_column {
   width: 300px;
@@ -93,6 +94,15 @@
 }
 .question_body {
   font-size: 1rem;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media (max-width: 1300px) {
